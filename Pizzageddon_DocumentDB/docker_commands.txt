@@ -1,0 +1,28 @@
+﻿https://hub.docker.com/_/mongo
+
+Pull:
+docker pull mongo
+
+Start mongo server:
+If you need to access the MongoDB server from another application running locally, you will need to expose a port using the -p argument.
+docker run --name pizzageddon_server -d -p 27017:27017 mongo
+
+Åben program:
+C:\Users\thoma\AppData\Roaming\mongodb\mongosh-1.6.0-win32-x64\bin
+
+Indtast container url:
+localhost:27017
+
+Vis databaser:
+show dbs
+
+Skift database:
+use Pizzageddon1
+
+Vis collections:
+show collections
+
+Vis alt fra collection:
+db.Pizza.find({})
+
+

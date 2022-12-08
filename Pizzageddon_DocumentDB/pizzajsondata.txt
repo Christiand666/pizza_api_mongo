@@ -1,0 +1,32 @@
+{
+  "id": 2,
+  "size": {
+    "id": 1,
+    "name": "Medium",
+    "price": 10
+  },
+  "crusttype": {
+    "id": 1,
+    "price": 10,
+    "name": "ost"
+  },
+  "pizzaDetail": {
+    "id": 1,
+    "price": 110,
+    "name": "tomatpizza",
+    "processTime": "2022-11-01T09:33:58.290Z",
+    "toppings": [
+      {
+        "id": 1,
+        "price": 10,
+        "name": "tomat",
+        "allergies": [
+          {
+            "id": 1,
+            "name": "redness"
+          }
+        ]
+      }
+    ]
+  }
+}
